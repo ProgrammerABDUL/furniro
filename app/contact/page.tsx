@@ -6,6 +6,16 @@ const contact = () => {
     return (
         <div>
             <Banner title='Contact' link='/contact' />
+            <div className="contact w-full p-5 text-center">
+                <div>
+                    <h1 className='capitalize font-semibold text-4xl'>Get in touch with us</h1>
+                    <p>For More Information About Our Product & Services. Please Feel Free To Drop Us An Email. Our Staff Always Be There To Help You Out. Do Not Hesitate!</p>
+                </div>
+
+                <div>
+
+                </div>
+            </div>
             <Features />
         </div>
     )

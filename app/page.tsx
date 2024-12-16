@@ -6,7 +6,7 @@ const Home = () => {
     <main className='main w-full bg-white'>
 
       {/* Hero Section */}
-      <section className="hero-section relative w-full h-[90vh] md:h-[80vh]">
+      <section className="hero-section relative w-full h-[77vh] md:h-[80vh]">
         {/* Background Image */}
         <div className="relative w-full h-full">
           <Image
@@ -19,18 +19,18 @@ const Home = () => {
         </div>
 
         {/* Card Content */}
-        <div className="absolute top-[15%] right-[8%] bg-[#FFF3E3] p-8 rounded-lg max-w-[90%] md:max-w-[40rem] h-[443px] gap-2 flex-col flex justify-center">
-          <p className="text-gray-600 font-semibold">New Arrival</p>
-          <h2 className="text-3xl md:text-[3.25rem] font-bold text-[#B88E2F] leading-snug md:leading-[4.06rem] capitalize whitespace-pre-wrap">
-            Discover our
-            
-            new Collection
-          </h2>
-          <p className="text-base md:text-[1.125rem] text-[#333333] leading-6 md:leading-7">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-            tellus, luctus nec ullamcorper mattis.
+        <div className="absolute top-[20%] 2xl:top-[25%] right-[5%] sm:right-[8%] bg-[#FFF3E3] p-6 sm:p-8 rounded-lg max-w-[85%] sm:max-w-[30rem] xl:max-w-[643px] h-auto xl:h-[443px] flex flex-col gap-4 justify-center">
+          <p className="text-gray-600 font-semibold text-sm sm:text-base">
+            New Arrival
           </p>
-          <button className="bg-[#B68D40] text-white text-sm md:text-base hover:bg-[#A37A37] uppercase font-bold transition-all w-[220px] h-[74px]">
+          <h2 className="text-2xl sm:text-3xl L-Laptop:text-[3.25rem] font-bold text-[#B88E2F] leading-snug sm:leading-[2.5rem] xl:leading-[4.06rem] capitalize xl:w-[430px] 2xl:w-auto">
+            Discover our new Collection
+          </h2>
+          <p className="text-sm sm:text-base md:text-lg text-[#333333] leading-5 sm:leading-6 md:leading-7">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus,
+            luctus nec ullamcorper mattis.
+          </p>
+          <button className="bg-[#B68D40] text-white text-sm sm:text-base 2xl:text-lg hover:bg-[#A37A37] uppercase font-bold transition-all w-full sm:w-[220px] h-[50px] sm:h-[74px]">
             Buy Now
           </button>
         </div>

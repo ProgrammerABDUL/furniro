@@ -2,14 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base{
-  body{
+@layer base {
+  body {
     @apply font-sans;
   }
 }
 
-@layer utilities{
-  .font-logo{
+@layer utilities {
+  .font-montserrat {
     font-family: "Montserrat", sans-serif;
   }
 }
@@ -38,7 +38,9 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 } */
 
-body{
+body {
   font-family: "Poppins", sans-serif;
   box-sizing: border-box;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
 }

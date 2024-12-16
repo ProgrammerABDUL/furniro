@@ -14,6 +14,12 @@ export default {
       },
       fontFamily: {
         sans: ['Poppins', 'sans-serif'],
+      },
+      screens: {
+        // 'S-Mobile': '320px',
+        // 'M-Mobile': '375px',
+        // 'L-Mobile': '425px',
+        'L-Laptop': '1440px',
       }
     },
   },

@@ -5,6 +5,7 @@ import "./globals.css";
 // Importing Components
 import Navbar from "@/components/Navbar/Navbar";
 import Footer from "@/components/Footer/Footer";
+import GoToTop from "@/components/GoToTop/GoToTop";
 
 // const geistSans = localFont({
 //   src: "./fonts/GeistVF.woff",
@@ -35,6 +36,7 @@ export default function RootLayout({
       <body className='bg-white'>
         <Navbar />
         {children}
+        <GoToTop />
         <Footer />
       </body>
     </html>
